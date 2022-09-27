@@ -56,8 +56,20 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "logger",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/logger-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -69,7 +81,7 @@
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/material_color_utilities-0.1.5",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/material_color_utilities-0.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.13"
     },
@@ -93,7 +105,7 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/source_span-1.9.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/source_span-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -105,13 +117,25 @@
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "string_scanner",
       "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_core",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_core-20.2.50",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_gauges",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_gauges-20.2.50",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -123,13 +147,13 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.12",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.14",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.2",
+      "rootUri": "file:///home/codespace/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -140,7 +164,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-09-24T04:41:37.057733Z",
+  "generated": "2022-09-27T12:05:08.449902Z",
   "generator": "pub",
-  "generatorVersion": "2.18.1"
+  "generatorVersion": "2.19.0-243.0.dev"
 }

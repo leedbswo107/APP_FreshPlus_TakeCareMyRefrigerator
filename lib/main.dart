@@ -1,10 +1,6 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'components/custom_form.dart';
-import 'components/pages/login_page.dart';
 import 'package:flutter/material.dart';
-import 'components/init.dart';
 import 'package:logger/logger.dart';
-import 'components/pages/home_page.dart';
+import '../components/home_page_folder/home_page.dart';
 
 var logger = Logger(
   printer: PrettyPrinter(),
@@ -12,7 +8,7 @@ var logger = Logger(
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await initialize();
+  //await initialize();
   runApp(MaterialApp(
     home: HomePage(),
   ));

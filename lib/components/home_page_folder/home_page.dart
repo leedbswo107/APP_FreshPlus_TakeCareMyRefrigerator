@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../homepage_tabbar.dart';
-import '../homepage_gauge.dart';
-import '../homepage_drawer.dart';
+import '../home_page_folder/homepage_tabbar.dart';
+import '../home_page_folder/homepage_gauge.dart';
+import '../home_page_folder/homepage_drawer.dart';
 
 class HomePage extends StatelessWidget {
   final _formKey = GlobalKey<FormState>();

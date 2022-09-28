@@ -20,8 +20,8 @@ class HomepageDrawer extends StatelessWidget {
               ),
 
             ],
-            accountName: Text('GANGPRO'),
-            accountEmail: Text('gangpro@email.com'),
+            accountName: Text('test'),
+            accountEmail: Text('test3@test.io'),
             onDetailsPressed: () {
               print('arrow is clicked');
             },

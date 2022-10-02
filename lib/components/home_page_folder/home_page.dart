@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 import '../home_page_folder/homepage_tabbar.dart';
 import '../home_page_folder/homepage_gauge.dart';
 import '../home_page_folder/homepage_drawer.dart';
@@ -15,7 +16,7 @@ class HomePage extends StatelessWidget {
             backgroundColor: Color(0xff2C7B0C),
             toolbarHeight: 56.0,
             title: Text(
-              "User_Name ì˜ ëƒ‰ì¥ê³ ", //User_Name Firebaseì—ì„œ ë°›ì•„ì™€ì•¼í•¨
+              "User_Name ÀÇ ³ÃÀå°í", //User_Name Firebase¿¡¼­ ¹Ş¾Æ¿Í¾ßÇÔ
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20.0,
@@ -83,9 +84,9 @@ class HomePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("ì´ ë¬¼í’ˆ : Nê°œ"),
-                      Text("ìœ í†µê¸°í•œ ì„ë°• : Mê°œ"),
-                      Text("ìœ í†µê¸°í•œ ê²½ê³¼ : Lê°œ"),
+                      Text("ÃÑ ¹°Ç° : N°³"),
+                      Text("À¯Åë±âÇÑ ÀÓ¹Ú : M°³"),
+                      Text("À¯Åë±âÇÑ °æ°ú : L°³"),
                     ],
                   )
                 ]),

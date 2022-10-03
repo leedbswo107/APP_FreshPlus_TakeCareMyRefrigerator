@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import '../components/home_page_folder/home_page.dart';
+import 'components/home_page_folder/home_page.dart';
 
 var logger = Logger(
   printer: PrettyPrinter(),

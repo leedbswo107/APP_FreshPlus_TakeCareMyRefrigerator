@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:helloworld/components/home_page_folder/homepage_controller.dart';
 
 class HomepageTabbar extends StatefulWidget {
   _HomepageTabbarState createState() => _HomepageTabbarState();
@@ -6,6 +8,8 @@ class HomepageTabbar extends StatefulWidget {
 
 class _HomepageTabbarState extends State<HomepageTabbar>
     with SingleTickerProviderStateMixin {
+  final homepageController = Get.put(HomepageController());
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -45,9 +49,27 @@ class _HomepageTabbarState extends State<HomepageTabbar>
   }
 
   Widget _buildList({String? key, String? string}) {
-    return ListView.builder(
-      key: PageStorageKey(key),
-      itemBuilder: (_, i) => ListTile(title: Text("${string} ${i}")),
-    );
+    return GetX<HomepageController>(builder: (controller) {
+      return ListView.builder(
+          key: PageStorageKey(key),
+          itemBuilder: (context, index) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '${controller.products[index].productName}',
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    fontFamily: 'Roboto',
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                Text(
+                  '${controller.products[index].shelfLife}',
+                )
+              ],
+            );
+          });
+    });
   }
 }

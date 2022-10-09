@@ -11,24 +11,19 @@ appbar 구성
 (용사)
 basic 제목만 필요
 */
-
-class HomepageAppbar extends StatelessWidget {
-  const HomepageAppbar({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return AppBar(
-      backgroundColor: Color(0xff2C7B0C),
-            toolbarHeight: 56.0,
-            title: Text(
-              "User_Name 의 냉장고", //User_Name Firebase에서 받아와야함
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 20.0,
-                fontFamily: "Roboto",
-                fontWeight: FontWeight.w500,
-              ),
-            ),
-    );
-  }
+class HomepageAppbar extends AppBar {
+  HomepageAppbar()
+      : super(
+        backgroundColor: Color(0xff2C7B0C),
+        toolbarHeight: 56.0,
+        title: Text(
+          "User_Name 의 냉장고", //User_Name Firebase에서 받아와야함
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.0,
+            fontFamily: "Roboto",
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      );
 }
